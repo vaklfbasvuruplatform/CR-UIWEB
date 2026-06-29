@@ -1,11 +1,11 @@
 import mysql from 'mysql2/promise';
 
 const pool = mysql.createPool({
-  host:     'mysql-1ff48a92-itoy2724-d356.d.aivencloud.com',
+  host:     'mysql-f768acc-mehmetler00000-6177.h.aivencloud.com',
   user:     'avnadmin',
-  password: 'AVNS_00WbvIaMHC0gqEbkojK',
+  password: 'AVNS_Jx5S6JQDgCXBWduL6lR',
   database: 'defaultdb',
-  port:     18217,
+  port:     12884,
   ssl:      { rejectUnauthorized: false },
   waitForConnections: true,
   connectionLimit: 10,
